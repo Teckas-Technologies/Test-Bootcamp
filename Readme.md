@@ -1,4 +1,4 @@
-# 🚀 Welcome to the Job-Ready Devs 30-Day Challenge! 🚀
+# 🚀 Welcome to the Job-Ready Devs 30-Day Challenge!
 
 Hey future developers! 👋 We’re thrilled to kick off this 30-Day Challenge where you’ll gain practical, job-ready skills by building a complete full-stack Student Management Web Application.
 
