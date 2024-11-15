@@ -24,7 +24,7 @@ Why it matters: Recruiters and collaborators often evaluate your GitHub profile 
 1. Switch to the Day-6 branch:
     - Run the following command in your terminal to create and switch to a new branch:
     ```bash
-    git checkout -b Day-6
+    git checkout Day-6
     ```
 
 2. Open the README.md file.
