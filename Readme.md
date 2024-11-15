@@ -1,82 +1,113 @@
 # Day 1: Environment Setup and "Hello, World!"
 
-Welcome to Day 1 of the Job-Ready Devs 30-Day Challenge! Today, we’ll set up our development environment and create a simple "Hello, World!" webpage to kick things off. This setup will help you get comfortable with the tools we'll be using throughout the challenge.
+Welcome to Day 1 of the Job-Ready Devs 30-Day Challenge! Today, we’ll focus on setting up our development environment and creating a basic "Hello, World!" webpage. This setup is essential for building a strong foundation, and it will help you get comfortable with the tools and workflows we'll be using throughout the challenge.
+
+## Overview
+Today’s lesson will get you started with:
+
+- Essential development tools and why they matter.
+- Version control with Git and GitHub.
+- Creating and sharing a simple "Hello, World!" project.
+Whether you’re new to development or need a refresher, this day is designed to set you up for success. Let’s dive in!
 
 ## Objectives
-1. Set up essential development tools: GitHub, Visual Studio Code, Git, and Node.js.
-2. Create a basic "Hello, World!" project using HTML and JavaScript.
-3. Push your project to GitHub.
+1. **Set up your development environment**: Install essential tools like GitHub, Visual Studio Code, Git, and Node.js.
+2. **Create a basic project**: Build a simple "Hello, World!" project using HTML and JavaScript.
+3. **Publish your code**: Push your first project to GitHub to establish a version-controlled repository.
 
 ## Steps
-
 ### Step 1: Install the Necessary Tools
-1. **Git**: [Download and install Git](https://git-scm.com/downloads).
-2. **Node.js**: [Download and install Node.js](https://nodejs.org/).
-3. **Visual Studio Code**: [Download and install VS Code](https://code.visualstudio.com/).
+1. **Git**: [Download and install Git](https://git-scm.com/downloads)
+    Git is crucial for managing code versions and collaborating with others effectively.
+
+2. **Node.js**: [Download and install Node.js](https://nodejs.org/)
+Node.js will enable JavaScript execution on your local machine. Later, it will also help us install and manage additional libraries and tools.
+
+3. **Visual Studio Code**: [Download and install VS Code](https://code.visualstudio.com/)
+VS Code is a powerful code editor that we’ll use throughout this challenge for writing and managing code.
 
 ### Step 2: Set Up Your GitHub Repository
-1. Create a GitHub account if you don’t have one: [Sign up for GitHub](https://github.com/).
-2. Create a new repository named `student-management-app`.
-3. Clone the repository to your local machine using:
-   ```bash
-   git clone https://github.com/your-username/student-management-app.git
+1. **Create a GitHub account if you don’t have one**: [Sign up for GitHub](https://github.com/)
+    GitHub is a platform for sharing and collaborating on code. You'll use it to host your projects and showcase your progress.
+
+2. **Access the Assignment Repository**
+- Go to the assignments website: [Assignment](https://assignments.com).
+- Click on the assignment repository URL provided.
+
+3. **Copy the Git Repository Clone URL**
+- On the repository page, locate the **Clone** or **Code** button.
+- Copy the repository URL (e.g., `https://github.com/username/repository-name.git`).
+
+4. **Clone the Repository to Your Local Machine**
+- Open the command prompt or terminal.
+- Run the following command to clone the repository:
+  ```bash
+    git clone https://github.com/your-username/student-management-app.git
+  ```
+
+5. **Open the Cloned Repository in VS Code**
+- Launch Visual Studio Code (VS Code).
+- Open the cloned repository folder:
+- Go to `File` > `Open Folder` in VS Code.
+
+6. **Open the Terminal in VS Code**
+- In VS Code, open the integrated terminal:
+    - Go to `View` > `Terminal`. 
+
+7. **Switch to the "Day-1" Branch**
+- Create and switch to the "Day-1" branch by running the following command in the terminal
+    ```bash
+    git checkout -b Day-1
+    ```
 
 ### Step 3: Create the "Hello, World!" Project
+1. **Open Visual Studio Code**
+    - Open the student-management-app folder in Visual Studio Code.
 
-1. **Open Visual Studio Code**: Open the `student-management-app` folder in Visual Studio Code.
-   
-2. **Create an HTML file**:
-   - Inside the `student-management-app` folder, create a new file named `index.html`.
-   - Add the following starter code to create a simple HTML structure and a "Hello, World!" message:
+2. **Create an HTML file**
+    - Inside the student-management-app folder, create a new file named `index.html`.
+    - Add the following code to create a basic HTML structure and display a "Hello, World!" message:
 
-     ```html
-     <!DOCTYPE html>
-     <html lang="en">
-     <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Student Management App - Day 1</title>
-     </head>
-     <body>
-         <h1>Hello, World!</h1>
-         <p>Welcome to the Student Management App Project!</p>
-     </body>
-     </html>
-     ```
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Management App - Day 1</title>
+    </head>
+    <body>
+        <h1>Hello, World!</h1>
+        <p>Welcome to the Student Management App Project!</p>
+    </body>
+    </html>
+    ```
 
-3. **Create a JavaScript file**:
-   - In the same folder, create another file named `main.js`.
-   - Add a simple console log message to test your JavaScript setup:
+3. **Create a JavaScript file**
+    - In the same folder, create another file named `main.js`.
+    - Add a simple console log message to test your JavaScript setup:
 
-     ```javascript
-     console.log("Hello, World! Welcome to the Student Management App.");
-     ```
+    ```javascript
+    console.log("Hello, World! Welcome to the Student Management App.");
+    ```
 
-4. **Link JavaScript to HTML**:
-   - To connect your `main.js` file to the HTML, add a `<script>` tag at the bottom of the `<body>` section in `index.html`:
+4. **Link JavaScript to HTML**
+    - To connect `main.js` to the HTML, add a `<script>` tag at the bottom of the `<body>` section in `index.html`:
 
-     ```html
-     <script src="main.js"></script>
-     ```
+    ```javascript
+    <script src="main.js"></script>
+    ```
 
-5. **Open in Browser**:
-   - Open `index.html` in a web browser. You should see "Hello, World!" displayed on the page, and if you open the browser's developer console (usually accessible by pressing `F12` or `Ctrl+Shift+I`), you should see the JavaScript message: `"Hello, World! Welcome to the Student Management App."`
-
-### Step 4: Link JavaScript to HTML
-
-1. Open the `index.html` file in your project folder.
-2. Add the following `<script>` tag at the bottom of the `<body>` section to link your `main.js` file:
-
-   ```html
-   <script src="main.js"></script>
-   ```
-3. Save the file.
-4. Test the connection by opening `index.html` in a web browser:
+### Step 4: View and Test Your Work
+1. Open `index.html` in a web browser
     - Right-click the file and select "Open with Browser" (or drag and drop it into your browser).
-    - Open the browser's developer console (press `F12` or `Ctrl+Shift+I`) to verify that the message from `main.js` appears: - - "Hello, World! Welcome to the Student Management App."
+    - Verify that "Hello, World!" displays on the page.
+
+2. Check the Developer Console
+    - Open your browser's developer console (usually accessible by pressing `F12` or `Ctrl+Shift+I`).
+    - Ensure the JavaScript message appears: "Hello, World! Welcome to the Student Management App."
 
 ### Step 5: Push the Project to GitHub
-
 1. Open a terminal in your project folder or use the terminal in Visual Studio Code.
 
 2. **Stage the files**:
