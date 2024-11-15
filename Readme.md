@@ -21,7 +21,7 @@ Remember: Good design improves user experience. While functionality is crucial, 
 1. Switch to the "Day-3" Branch
     - Switch to the "Day-3" branch by running the following command in the terminal
     ```bash
-     git checkout -b Day-3
+     git checkout Day-3
     ```
 2. In your project folder, create a new file named `styles.css`.
     **Why?**: Separating CSS from HTML keeps your code organized and easier to manage.
