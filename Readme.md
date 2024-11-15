@@ -20,7 +20,7 @@ Why Functions?: Functions help you avoid repetitive code, make debugging easier,
 1. Switch to the "Day-5" Branch
     - Switch to the "Day-5" branch by running the following command in the terminal
     ```bash
-     git checkout -b Day-5
+     git checkout Day-5
     ```
 2. Open your `script.js` file.
 3. Write the addStudent function:
