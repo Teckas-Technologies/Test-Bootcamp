@@ -1,0 +1,99 @@
+/* Navbar section styles */
+nav {
+    background-color: #007BFF; /* Set a blue background color */
+    color: white; /* Set the text color to white */
+    padding: 1rem; /* Add padding inside the navigation bar */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Align items vertically */
+}
+
+nav h1 {
+    margin: 0; /* Remove default margin for the title */
+}
+
+nav ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Arrange list items in a row */
+    gap: 1rem; /* Add space between list items */
+}
+
+nav ul li a {
+    color: white; /* Set link text color to white */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make the text bold */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Add underline when hovering over links */
+}
+
+/* Student List section styles */
+#student-list {
+    margin: 2rem 0; /* Add space above and below the section */
+    padding: 1rem; /* Add padding inside the section */
+    background-color: #f9f9f9; /* Set a light gray background color */
+    border: 1px solid #ddd; /* Add a light border around the section */
+    border-radius: 5px; /* Round the corners of the section */
+}
+
+#student-list h2 {
+    margin-bottom: 1rem; /* Add space below the heading */
+}
+
+#student-list ul {
+    list-style: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+}
+
+#student-list ul li {
+    padding: 0.5rem 0; /* Add vertical padding to each list item */
+    border-bottom: 1px solid #ddd; /* Add a divider between list items */
+}
+
+#student-list ul li:last-child {
+    border-bottom: none; /* Remove the border from the last list item */
+}
+
+/* Add Student section styles */
+#add-student {
+    margin: 2rem 0; /* Add space above and below the section */
+    padding: 1rem; /* Add padding inside the section */
+    background-color: #f9f9f9; /* Set a light gray background color */
+    border: 1px solid #ddd; /* Add a light border around the section */
+    border-radius: 5px; /* Round the corners of the section */
+}
+
+#add-student h2 {
+    margin-bottom: 1rem; /* Add space below the heading */
+}
+
+#add-student form {
+    display: flex; /* Use flexbox for form layout */
+    flex-direction: column; /* Stack form elements vertically */
+    gap: 1rem; /* Add space between form elements */
+}
+
+#add-student label {
+    font-weight: bold; /* Make labels bold */
+}
+
+#add-student input {
+    padding: 0.5rem; /* Add padding inside input fields */
+    border: 1px solid #ddd; /* Add a light border to input fields */
+    border-radius: 5px; /* Round the corners of input fields */
+}
+
+#add-student button {
+    padding: 0.5rem 1rem; /* Add padding to the button */
+    background-color: #007BFF; /* Set a blue background color for the button */
+    color: white; /* Set button text color to white */
+    border: none; /* Remove the default button border */
+    border-radius: 5px; /* Round the corners of the button */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+#add-student button:hover {
+    background-color: #0056b3; /* Darken the button color on hover */
+}
