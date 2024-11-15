@@ -17,13 +17,14 @@ Whether you’re new to development or need a refresher, this day is designed to
 
 ## Steps
 ### Step 1: Install the Necessary Tools
-1. **Git**: [Download and install Git](https://git-scm.com/downloads):
+
+1. **Git**: [Download and install Git](https://git-scm.com/downloads)  
     Git is crucial for managing code versions and collaborating with others effectively.
 
-2. **Node.js**: [Download and install Node.js](https://nodejs.org/):
+2. **Node.js**: [Download and install Node.js](https://nodejs.org/)  
     Node.js will enable JavaScript execution on your local machine. Later, it will also help us install and manage additional libraries and tools.
 
-3. **Visual Studio Code**: [Download and install VS Code](https://code.visualstudio.com/):
+3. **Visual Studio Code**: [Download and install VS Code](https://code.visualstudio.com/)  
     VS Code is a powerful code editor that we’ll use throughout this challenge for writing and managing code.
 
 ### Step 2: Set Up Your GitHub Repository
@@ -125,7 +126,7 @@ Whether you’re new to development or need a refresher, this day is designed to
 4. **Push the changes to GitHub**:
    - Upload your code to your GitHub repository:
     ```bash
-     git push origin main
+     git push origin Day-1
     ```
 
 5. **Verify the upload**:
