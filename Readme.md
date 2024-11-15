@@ -21,7 +21,7 @@ Remember: Learning JavaScript opens the door to building dynamic and interactive
 1. Switch to the "Day-4" Branch
     - Switch to the "Day-4" branch by running the following command in the terminal
     ```bash
-     git checkout -b Day-4
+     git checkout Day-4
     ```
 2. In your project folder, create a new file named script.js.
     Why?: Keeping JavaScript in a separate file helps keep your code organized and maintainable.
