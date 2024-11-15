@@ -21,10 +21,10 @@ Remember: Learning HTML is the foundation of web development. While it may seem 
 ## Steps
 ### Step 1: Create a New HTML File
 1. Open your project root folder in Visual Studio Code.
-2. Switch to the "Day-1" Branch
-    - Switch to the "Day-1" branch by running the following command in the terminal
+2. Switch to the "Day-2" Branch
+    - Switch to the "Day-2" branch by running the following command in the terminal
     ```bash
-     git checkout -b Day-1
+     git checkout -b Day-2
     ```
 
 3. If you don’t already have an `index.html` file, create one:
