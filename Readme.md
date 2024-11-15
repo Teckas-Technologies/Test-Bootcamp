@@ -17,55 +17,55 @@ Whether you’re new to development or need a refresher, this day is designed to
 
 ## Steps
 ### Step 1: Install the Necessary Tools
-1. **Git**: [Download and install Git](https://git-scm.com/downloads)
+1. **Git**: [Download and install Git](https://git-scm.com/downloads):
     Git is crucial for managing code versions and collaborating with others effectively.
 
-2. **Node.js**: [Download and install Node.js](https://nodejs.org/)
-Node.js will enable JavaScript execution on your local machine. Later, it will also help us install and manage additional libraries and tools.
+2. **Node.js**: [Download and install Node.js](https://nodejs.org/):
+    Node.js will enable JavaScript execution on your local machine. Later, it will also help us install and manage additional libraries and tools.
 
-3. **Visual Studio Code**: [Download and install VS Code](https://code.visualstudio.com/)
-VS Code is a powerful code editor that we’ll use throughout this challenge for writing and managing code.
+3. **Visual Studio Code**: [Download and install VS Code](https://code.visualstudio.com/):
+    VS Code is a powerful code editor that we’ll use throughout this challenge for writing and managing code.
 
 ### Step 2: Set Up Your GitHub Repository
 1. **Create a GitHub account if you don’t have one**: [Sign up for GitHub](https://github.com/)
-    GitHub is a platform for sharing and collaborating on code. You'll use it to host your projects and showcase your progress.
+    - GitHub is a platform for sharing and collaborating on code. You'll use it to host your projects and showcase your progress.
 
 2. **Access the Assignment Repository**
-- Go to the assignments website: [Assignment](https://assignments.com).
-- Click on the assignment repository URL provided.
+    - Go to the assignments website: [Assignment](https://assignments.com).
+    - Click on the assignment repository URL provided.
 
 3. **Copy the Git Repository Clone URL**
-- On the repository page, locate the **Clone** or **Code** button.
-- Copy the repository URL (e.g., `https://github.com/username/repository-name.git`).
+    - On the repository page, locate the **Clone** or **Code** button.
+    - Copy the repository URL (e.g., `https://github.com/username/repository-name.git`).
 
 4. **Clone the Repository to Your Local Machine**
-- Open the command prompt or terminal.
-- Run the following command to clone the repository:
-  ```bash
-    git clone https://github.com/your-username/student-management-app.git
-  ```
+    - Open the command prompt or terminal.
+    - Run the following command to clone the repository:
+    ```bash
+        git clone https://github.com/your-username/student-management-app.git
+    ```
 
 5. **Open the Cloned Repository in VS Code**
-- Launch Visual Studio Code (VS Code).
-- Open the cloned repository folder:
-- Go to `File` > `Open Folder` in VS Code.
+    - Launch Visual Studio Code (VS Code).
+    - Open the cloned repository folder:
+    - Go to `File` > `Open Folder` in VS Code.
 
 6. **Open the Terminal in VS Code**
-- In VS Code, open the integrated terminal:
-    - Go to `View` > `Terminal`. 
+    - In VS Code, open the integrated terminal:
+        - Go to `View` > `Terminal`. 
 
 7. **Switch to the "Day-1" Branch**
-- Create and switch to the "Day-1" branch by running the following command in the terminal
+    - Create and switch to the "Day-1" branch by running the following command in the terminal
     ```bash
     git checkout -b Day-1
     ```
 
 ### Step 3: Create the "Hello, World!" Project
 1. **Open Visual Studio Code**
-    - Open the student-management-app folder in Visual Studio Code.
+    - Open the cloned repository root folder in Visual Studio Code.
 
 2. **Create an HTML file**
-    - Inside the student-management-app folder, create a new file named `index.html`.
+    - Inside the root folder, create a new file named `index.html`.
     - Add the following code to create a basic HTML structure and display a "Hello, World!" message:
 
     ```html
@@ -94,7 +94,7 @@ VS Code is a powerful code editor that we’ll use throughout this challenge for
 4. **Link JavaScript to HTML**
     - To connect `main.js` to the HTML, add a `<script>` tag at the bottom of the `<body>` section in `index.html`:
 
-    ```javascript
+    ```html
     <script src="main.js"></script>
     ```
 
@@ -112,23 +112,25 @@ VS Code is a powerful code editor that we’ll use throughout this challenge for
 
 2. **Stage the files**:
    - Run the following command to stage all your project files:
-     ```bash
+    ```bash
      git add .
-     ```
+    ```
 
 3. **Commit the changes**:
    - Save your progress with a descriptive commit message:
-     ```bash
+    ```bash
      git commit -m "Add Day 1 Hello, World! project"
-     ```
+    ```
 
 4. **Push the changes to GitHub**:
    - Upload your code to your GitHub repository:
-     ```bash
+    ```bash
      git push origin main
-     ```
+    ```
 
 5. **Verify the upload**:
    - Open your GitHub repository in a browser and confirm that your `index.html` and `main.js` files have been uploaded.
+
+---
 
 Congratulations! 🎉 Your first project is now live on GitHub, and you're all set for Day 2!
