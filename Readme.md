@@ -139,5 +139,7 @@ Follow these steps to save your progress:
      git push origin Day-5
      ```
 
+---
+
 ## You’re Crushing It! 🎉
 Congratulations on completing Day 5! You’ve made your app more modular, scalable, and dynamic. Your hard work is paying off, and you’re building skills that will serve you throughout your career. Keep pushing forward—Day 6 is going to be just as exciting! 🚀
