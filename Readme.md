@@ -24,7 +24,7 @@ Remember: Learning HTML is the foundation of web development. While it may seem 
 2. Switch to the "Day-2" Branch
     - Switch to the "Day-2" branch by running the following command in the terminal
     ```bash
-     git checkout -b Day-2
+     git checkout Day-2
     ```
 
 3. If you don’t already have an `index.html` file, create one:
@@ -85,7 +85,7 @@ Remember: Learning HTML is the foundation of web development. While it may seem 
     </section>
     ```
 
-2. **Why use a <section>?**
+2. **Why use a `<section>`?**
 
     - Sections help divide your page into logical parts, making it easier to manage and style later.
     - The id="student-list" allows linking directly to this section using the navigation bar.
@@ -141,6 +141,22 @@ Remember: Learning HTML is the foundation of web development. While it may seem 
 
 3. Test navigation links:
     - Clicking on links in the navigation bar should scroll to the corresponding sections.
+
+## Push Your Changes to GitHub
+Follow these steps to save your progress:
+
+  1. **Stage the changes**:
+     ```bash
+     git add .
+     ```
+  2. **Commit the changes with a descriptive message**:
+     ```bash
+     git commit -m "Added HTML structure"
+     ```
+  3. **Push the changes to your GitHub repository**:
+     ```bash
+     git push origin Day-2
+     ```
 
 ---
 
