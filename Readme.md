@@ -41,10 +41,10 @@ Whether you’re new to development or need a refresher, this day is designed to
 
 4. **Clone the Repository to Your Local Machine**
     - Open the command prompt or terminal.
-    - Run the following command to clone the repository:
-    ```bash
-        git clone https://github.com/your-username/student-management-app.git
-    ```
+    - Run the following command to clone the repository:  
+
+    - Clone repo cmd with sample url : `git clone https://github.com/your-username/student-management-app.git`
+    
 
 5. **Open the Cloned Repository in VS Code**
     - Launch Visual Studio Code (VS Code).
@@ -58,7 +58,7 @@ Whether you’re new to development or need a refresher, this day is designed to
 7. **Switch to the "Day-1" Branch**
     - Create and switch to the "Day-1" branch by running the following command in the terminal
     ```bash
-    git checkout -b Day-1
+    git checkout Day-1
     ```
 
 ### Step 3: Create the "Hello, World!" Project
