@@ -2,6 +2,10 @@
 
 Welcome to Day 2 of the **Job-Ready Devs 30-Day Challenge!** 🎉 Today, we’ll take the first major step toward building our **Student Management App** by creating its structure using HTML. By the end of this session, you'll have a solid layout for your app, complete with a navigation bar, a student list section, and a form to add new students.
 
+## Expected Output
+At the end of **Day 2**, you will have knowledge of **HTML tags**, and you will get an expected output like the one shown below:
+![Expected Output](https://gfxvsstorage.blob.core.windows.net/gfxvscontainer/Day-2.png)
+
 ## Overview
 In this lesson, you’ll:
 
