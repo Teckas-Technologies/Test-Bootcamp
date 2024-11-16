@@ -60,7 +60,7 @@ git push
 
 ## Week 1: Frontend Foundations with HTML, CSS, and JavaScript
 ### Goal: 
-    Build a static frontend for the Student Management App, covering essential HTML, CSS, and JavaScript basics.
+- Build a static frontend for the Student Management App, covering essential HTML, CSS, and JavaScript basics.
 
 **Day 1**: Environment Setup and Hello, World!
 - Set up GitHub, Visual Studio Code, Git, and Node.js.
@@ -93,7 +93,7 @@ git push
 
 ## Week 2: Adding Interactivity and Creating a Backend with Node.js and Express
 ### Goal: 
-    Add interactivity to the frontend and set up a Node.js backend to handle data requests.
+- Add interactivity to the frontend and set up a Node.js backend to handle data requests.
 
 **Day 8**: JavaScript Event Listeners + Data Handling
 - Improve form functionality with JavaScript event listeners to capture user input.
@@ -124,7 +124,7 @@ git push
 
 ## Week 3: Database Integration and CRUD Operations with MongoDB
 ### Goal: 
-    Implement data persistence with MongoDB and create a fully functional API with CRUD operations.
+- Implement data persistence with MongoDB and create a fully functional API with CRUD operations.
 
 **Day 15**: Introduction to MongoDB + Setting Up a Database
 - Learn database basics and set up a MongoDB instance.
@@ -156,7 +156,7 @@ git push
 
 ## Week 4: Final Touches, Deployment, and Portfolio Building
 ### Goal: 
-    Polish the app, deploy it live, and create a professional GitHub portfolio.
+- Polish the app, deploy it live, and create a professional GitHub portfolio.
 
 **Day 22**: User Authentication Basics (Optional)
 - (Optional) Add simple authentication with a login form for added functionality.
