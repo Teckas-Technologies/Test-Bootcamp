@@ -164,43 +164,75 @@ Remember: Good design improves user experience. While functionality is crucial, 
 
 2. Add the following CSS code to style the navigation bar:
     ```css
+    /* Global styles */
     * {
-        width: 100%; /* full width to the whole page */
-        box-sizing: border-box; /* keep exact size of the page  */
-        margin: 0; /* remove spaces outside the whole page */
-        padding: 0; /* remove spaces inside the whole page */
+        width: 100%; /* Full width for the whole page */
+        box-sizing: border-box; /* Keep the exact size of elements */
+        margin: 0; /* Remove spaces outside all elements */
+        padding: 0; /* Remove spaces inside all elements */
     }
 
+    /* Navbar section styles */
     nav {
-        width: 100%;
-        background-color: #007BFF; /* Set a blue background color */
+        width: 100%; /* Make navbar span the entire width */
+        background-color: black; /* Set the navbar background color to black */
         color: white; /* Set the text color to white */
-        padding: 1rem; /* Add space inside the navigation bar */
+        padding: 1rem; /* Add padding inside the navbar */
         display: flex; /* Use flexbox for layout */
-        gap: 1%; /* add space between the elements inside the nav element */
-        justify-content: space-between; /* Space out items */
+        gap: 1%; /* Add spacing between child elements inside the navbar */
+        justify-content: space-between; /* Space out items horizontally */
         align-items: center; /* Align items vertically */
     }
 
-    nav h1 {
-        margin: 0; /* Remove default margin for the title */
+    /* Logo container styles */
+    .logo {
+        display: flex; /* Default layout for flex is row */
+        align-items: center; /* Vertically align items */
+        justify-content: center; /* Center items horizontally */
+        gap: 4px; /* Add a small gap between the logo image and text */
     }
 
+    /* Logo image styles */
+    .logo img {
+        width: 3rem; /* Set fixed width for logo image */
+        height: 3rem; /* Set fixed height for logo image */
+        object-fit: cover; /* Ensure the image fits the container */
+        border-radius: 50%; /* Make the image circular */
+    }
+
+    /* Navbar title styles */
+    nav h1 {
+        margin: 0; /* Remove default margin around the title */
+    }
+
+    /* Navbar unordered list styles */
     nav ul {
         list-style: none; /* Remove default bullet points */
-        padding: 0; /* Remove default padding */
+        padding: 0; /* Remove default padding for the list */
         display: flex; /* Arrange list items in a row */
-        gap: 1rem; /* Add space between list items */
+        justify-content: end; /* Align list items to the right */
+        gap: 1.5rem; /* Add space between each list item */
     }
 
+    /* Navbar list item styles */
+    nav ul li {
+        width: auto; /* Allow list items to take up only necessary width */
+        display: flex; /* Flexbox for alignment */
+        justify-content: center; /* Center list items horizontally */
+        align-items: center; /* Center list items vertically */
+    }
+
+    /* Navbar link styles */
     nav ul li a {
         color: white; /* Set link text color to white */
         text-decoration: none; /* Remove underline from links */
-        font-weight: bold; /* Make the text bold */
+        font-weight: bold; /* Make link text bold */
     }
 
+    /* Navbar link hover effect */
     nav ul li a:hover {
         text-decoration: underline; /* Add underline when hovering over links */
+        text-underline-offset: 5px; /* Add spacing between text and underline */
     }
     ```
 
@@ -211,15 +243,17 @@ Remember: Good design improves user experience. While functionality is crucial, 
 ### Step 3: Style the Student List Section
 1. Add the following CSS code to style the student list:
     ```css
+    /* Styles for the sections container */
     .sections {
         display: flex; /* Use flexbox for layout */
         width: 100%; /* Make the container take up the full width of the page */
-        gap: 3%; /* Add space between child elements */
+        gap: 3%; /* Add spacing between child elements */
         padding: 1rem; /* Add padding inside the container */
     }
 
+    /* Student List section styles */
     #student-list {
-        width: 50%; /* give the 50% width of the whole page to student-list div */
+        width: 50%; /* Assign 50% of the page width to this section */
         margin: 2rem 0; /* Add space above and below the section */
         padding: 1rem; /* Add padding inside the section */
         background-color: #f9f9f9; /* Set a light gray background color */
@@ -227,22 +261,26 @@ Remember: Good design improves user experience. While functionality is crucial, 
         border-radius: 5px; /* Round the corners of the section */
     }
 
+    /* Student List heading styles */
     #student-list h2 {
-        margin-bottom: 1rem; /* Add space below the heading */
+        margin-bottom: 1rem; /* Add spacing below the heading */
     }
 
+    /* Unordered list in the Student List section */
     #student-list ul {
-        list-style: none; /* Remove bullet points from the list */
+        list-style: none; /* Remove default bullet points */
         padding: 0; /* Remove default padding */
     }
 
+    /* Individual list item styles in Student List */
     #student-list ul li {
-        padding: 0.5rem 0; /* Add vertical padding to each list item */
+        padding: 0.5rem 0; /* Add vertical padding to list items */
         border-bottom: 1px solid #ddd; /* Add a divider between list items */
     }
 
+    /* Remove bottom border for the last list item */
     #student-list ul li:last-child {
-        border-bottom: none; /* Remove the border from the last list item */
+        border-bottom: none; /* Remove the bottom border */
     }
     ```
 
@@ -253,8 +291,9 @@ Remember: Good design improves user experience. While functionality is crucial, 
 ### Step 4: Style the Add Student Form
 1. Add the following CSS code to style the form:
     ```css
+    /* Add Student section styles */
     #add-student {
-        width: 50%; /* give the 50% width of the whole page to student-list div */
+        width: 50%; /* Assign 50% of the page width to this section */
         margin: 2rem 0; /* Add space above and below the section */
         padding: 1rem; /* Add padding inside the section */
         background-color: #f9f9f9; /* Set a light gray background color */
@@ -262,44 +301,83 @@ Remember: Good design improves user experience. While functionality is crucial, 
         border-radius: 5px; /* Round the corners of the section */
     }
 
+    /* Add Student section heading styles */
     #add-student h2 {
-        margin-bottom: 1rem; /* Add space below the heading */
+        margin-bottom: 1rem; /* Add spacing below the heading */
     }
 
+    /* Form styles inside Add Student section */
     #add-student form {
-        display: flex; /* Use flexbox for form layout */
+        display: flex; /* Use flexbox for layout */
         flex-direction: column; /* Stack form elements vertically */
-        gap: 0.5rem; /* Add space between form elements */
+        gap: 0.5rem; /* Add spacing between form elements */
     }
 
+    /* Label styles inside Add Student section */
     #add-student label {
-        font-weight: bold; /* Make labels bold */
+        font-weight: bold; /* Make label text bold */
     }
 
+    /* Input field styles in Add Student section */
     #add-student input {
         padding: 0.5rem; /* Add padding inside input fields */
         border: 1px solid #ddd; /* Add a light border to input fields */
         border-radius: 5px; /* Round the corners of input fields */
     }
 
+    /* Button styles in Add Student section */
     #add-student button {
+        width: 10rem; /* Set fixed width for the button */
         padding: 0.5rem 1rem; /* Add padding to the button */
-        background-color: #007BFF; /* Set a blue background color for the button */
+        background-color: #48bde8; /* Set a light blue background color */
         color: white; /* Set button text color to white */
-        border: none; /* Remove the default button border */
+        border: none; /* Remove default border */
         border-radius: 5px; /* Round the corners of the button */
-        cursor: pointer; /* Change the cursor to a pointer on hover */
+        cursor: pointer; /* Show pointer cursor on hover */
     }
 
+    /* Button hover effect */
     #add-student button:hover {
-        background-color: #0056b3; /* Darken the button color on hover */
+        background-color: #5AC2E7; /* Change to a darker blue on hover */
     }
     ```
 
 2. Save the file and refresh your browser:
     - The form now looks clean and professional, with visually appealing input fields and buttons.
 
-### Step 5: Responsiveness styles for mobile screen
+### Step 5: Style the Footer section
+1. Add the following CSS code to style the footer:
+    ```css
+    /* Footer section styles */
+    footer {
+        width: 100%; /* Make footer span the full width */
+        height: 4rem; /* Set footer height */
+        background: black; /* Set footer background color to black */
+        position: fixed; /* Fix footer to the bottom of the viewport */
+        bottom: 0; /* Align footer to the bottom */
+        justify-content: center; /* Center footer content horizontally */
+        align-items: center; /* Center footer content vertically */
+    }
+
+    /* Footer text styles */
+    footer h2 {
+        color: #fff; /* Set footer text color to white */
+        font-size: 14px; /* Set font size */
+        text-align: center; /* Center align text */
+        line-height: 4rem; /* Vertically center text */
+        font-weight: normal; /* Use normal font weight */
+    }
+
+    /* Footer link styles */
+    footer a {
+        color: #5AC2E7; /* Set link color to light blue */
+    }
+    ```
+
+    2. Save the file and refresh your browser:
+    - The form now looks clean and professional, with visually appealing `footer` with copyright text.
+
+### Step 6: Responsiveness styles for mobile screen
 1. Add the following CSS code to style entire design suitable for mobile:
     ```css
     /* Responsive styles for screens with a maximum width of 768px */
@@ -321,11 +399,12 @@ Remember: Good design improves user experience. While functionality is crucial, 
     - The `@media` query is used to apply specific styles based on the screen's width or other characteristics, enabling responsive design. Here, it adjusts the layout for screens with a width of `768px` or less, ensuring a mobile-friendly layout.
 
 
-### Step 6: Test Your Layout and Style
+### Step 7: Test Your Layout and Style
 1. Open your app in the browser and verify:
     - The navigation bar is styled and functional.
     - The student list section is neatly organized.
     - The form has a polished design.
+    - The footer has the copyright text with respective colors and alignments.
 
 2. Experiment:
     - Adjust colors, padding, or fonts in `styles.css` to see the effects.
