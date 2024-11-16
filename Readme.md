@@ -59,7 +59,10 @@ Remember: Learning HTML is the foundation of web development. While it may seem 
 1. Inside the `<body>` tag, add a `<nav>` element to create a navigation bar:
     ```html
     <nav>
-        <h1>Student Management App</h1>
+        <div class="logo">
+            <img src="teckas-logo.jpg" alt="logo">
+            <h1>Student Management</h1>
+        </div>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#student-list">Student List</a></li>
@@ -73,20 +76,30 @@ Remember: Learning HTML is the foundation of web development. While it may seem 
     - `<h1>` represents the main title of your app.
     - `<ul>` creates an unordered list of navigation links.
     - `<a href="#">` is used for navigation. Links like `#student-list` allow users to jump to specific sections on the page.
+    - `<div class="logo">`:
+        - Acts as a container for the logo and the title.
+        - Helps style both elements together.
+
+    - `<img src="teckas-logo.jpg" alt="logo">`:
+        - Displays the logo image.
+        - The `src` attribute will give the `url` or `path` of the image.
+        - The `alt` text provides a description of the image.
 
 3. **Pro Tip**: Test your navigation links after adding the corresponding sections below. Clicking them will scroll to the appropriate section if the `id` matches.
 
 ### Step 4: Add a Student List Section
 1. Below the `<nav>` element, add a `<section>` for displaying the student list:
     ```html
-    <section id="student-list">
-        <h2>Student List</h2>
-        <ul>
-            <!-- Example placeholder for student names -->
-            <li>John Doe</li>
-            <li>Jane Smith</li>
-        </ul>
-    </section>
+    <div class="sections">
+        <section id="student-list">
+            <h2>Student List</h2>
+            <ul>
+                <!-- Example placeholder for student names -->
+                <li>John Doe</li>
+                <li>Jane Smith</li>
+            </ul>
+        </section>
+    </div>
     ```
 
 2. **Why use a `<section>`?**
@@ -126,7 +139,34 @@ Remember: Learning HTML is the foundation of web development. While it may seem 
 
     - Keep your inputs simple for now. We’ll handle form submissions and validations in future lessons.
 
-### Step 6: Review and Save Your Work
+### Step 6: Footer section
+1. Below the add student section, add the `<footer>` for the copyright section:
+    ```html
+    <footer>
+        <h2>Copyright &copy; 2024. Job Ready Devs held by <a href="https://teckastechnologies.com/">Teckas Technologies!</a></h2>
+    </footer>
+    ```
+
+    - `<footer>` Tag
+        - The `<footer>` tag is a block-level element used to define a `footer` for a section or the entire webpage. It typically contains metadata, copyright information, or links.
+
+    - `<h2>` Tag
+        - The `<h2>` tag is a heading element used to define a subheading on a webpage. It is a block-level element and is the second largest heading in HTML after `<h1>`.
+
+    - `<a>` Tag
+        - The `<a>` tag is used to define hyperlinks. It can link to another webpage, a section within the same page, or any external resource.
+
+        **Attributes**:
+        - `href`:
+            - Specifies the URL of the destination.
+            - Example: href="https://teckastechnologies.com/"
+
+        - `target` (Optional):
+            - Specifies where to open the linked document (e.g., `_blank` for a new tab).
+            - Example: target="_blank"
+  
+
+### Step 7: Review and Save Your Work
 1. Check your file structure:
 
     - Does your `<body>` contain the `<nav>`, `<section id="student-list">`, and `<section id="add-student">` elements in the right order?
@@ -134,7 +174,7 @@ Remember: Learning HTML is the foundation of web development. While it may seem 
 
 2. Save your work using `Ctrl+S` (Windows/Linux) or `Cmd+S` (Mac).
 
-### Step 7: Test Your Page
+### Step 8: Test Your Page
 1. Open `index.html` in your browser:
     - Double-click the file or drag and drop it into your browser window.
 
