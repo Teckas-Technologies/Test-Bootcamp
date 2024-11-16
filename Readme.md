@@ -15,6 +15,28 @@ Why Functions?: Functions help you avoid repetitive code, make debugging easier,
 3. Integrate JavaScript functions with the DOM for real-time updates.
 4. Prepare your app for scalability by using data arrays.
 
+## JavaScript Methods
+1. `push`
+    - The push method adds one or more elements to the end of an array. It modifies the original array and returns the new length of the array.
+
+    **Syntax**:
+    ```javascript
+    array.push(element1, element2, ..., elementN);
+    ```
+
+    **Use Cases**:
+    - Adding new items to an `array`.
+    - Storing user data or other dynamic values.
+
+    **Example**:
+    ```javascript
+    students.push({ name, email });
+    ```
+
+    **Explanation**:
+    - Adds a new object containing the name and email values to the students array.  
+
+
 ## Steps
 ### Step 1: Create a Function to Add a Student
 1. Switch to the "Day-5" Branch
