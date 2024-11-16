@@ -1,4 +1,5 @@
 # Day 4: JavaScript Basics + DOM Manipulation
+
 Welcome to Day 4 of the **Job-Ready Devs 30-Day Challenge!** 🎉 Today, you’ll take your **Student Management App** to the next level by adding interactivity with **JavaScript**. You’ll learn to dynamically update the student list based on user input—just like real-world applications. By the end of this session, your app will respond to user actions and feel alive!
 
 ## Overview
@@ -15,6 +16,63 @@ Remember: Learning JavaScript opens the door to building dynamic and interactive
 2. Write JavaScript to capture and validate form inputs.
 3. Dynamically update the "Student List" with user-provided data.
 4. Build error handling and validation for smoother user experience.
+
+## JavaScript Methods and Functions
+1. `addEventListener`
+    - The addEventListener method allows you to attach an event handler to a specific event on an element.  
+
+    **Syntax**:
+    ```javascript
+    element.addEventListener(event, handlerFunction);
+    ```
+
+    **Parameters**:
+    - `event`: The type of event to listen for (e.g., `click`, `submit`, `mouseover`).
+    - `handlerFunction`: The function that executes when the event occurs.  
+    
+    **Example**:
+    ```javascript
+    form.addEventListener('submit', (event) => {
+        // Function logic here
+    });
+    ```
+    - In the example, the submit event of the form is being listened to.
+
+2. `preventDefault`
+    - The preventDefault method stops the default action of an event from occurring. For instance, it prevents the form from reloading the page when submitted.  
+
+    **Syntax**:  
+    ```javascript
+    event.preventDefault();
+    ```
+
+    **Use Case**:  
+    - Useful in forms to control the submission process manually.  
+
+    **Example**:
+    ```javascript
+    form.addEventListener('submit', (event) => {
+        event.preventDefault(); // Prevents form from submitting normally
+    });
+    ```
+
+3. `createElement`
+    - The createElement method creates a new DOM element dynamically.  
+
+    **Syntax**:
+    ```javascript
+    document.createElement(tagName);
+    ```
+
+    **Parameters**:
+    `tagName`: The name of the HTML element to create (e.g., `div`, `span`, `li`).  
+
+    **Example**:
+    ```javascript
+    const listItem = document.createElement('li');
+    ```
+    - Creates a new `<li>` element.
+
 
 ## Steps
 ### Step 1: Add a JavaScript File
