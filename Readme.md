@@ -164,11 +164,20 @@ Remember: Good design improves user experience. While functionality is crucial, 
 
 2. Add the following CSS code to style the navigation bar:
     ```css
+    * {
+        width: 100%; /* full width to the whole page */
+        box-sizing: border-box; /* keep exact size of the page  */
+        margin: 0; /* remove spaces outside the whole page */
+        padding: 0; /* remove spaces inside the whole page */
+    }
+
     nav {
+        width: 100%;
         background-color: #007BFF; /* Set a blue background color */
         color: white; /* Set the text color to white */
-        padding: 1rem; /* Add padding inside the navigation bar */
+        padding: 1rem; /* Add space inside the navigation bar */
         display: flex; /* Use flexbox for layout */
+        gap: 1%; /* add space between the elements inside the nav element */
         justify-content: space-between; /* Space out items */
         align-items: center; /* Align items vertically */
     }
@@ -202,7 +211,15 @@ Remember: Good design improves user experience. While functionality is crucial, 
 ### Step 3: Style the Student List Section
 1. Add the following CSS code to style the student list:
     ```css
+    .sections {
+        display: flex; /* Use flexbox for layout */
+        width: 100%; /* Make the container take up the full width of the page */
+        gap: 3%; /* Add space between child elements */
+        padding: 1rem; /* Add padding inside the container */
+    }
+
     #student-list {
+        width: 50%; /* give the 50% width of the whole page to student-list div */
         margin: 2rem 0; /* Add space above and below the section */
         padding: 1rem; /* Add padding inside the section */
         background-color: #f9f9f9; /* Set a light gray background color */
@@ -237,6 +254,7 @@ Remember: Good design improves user experience. While functionality is crucial, 
 1. Add the following CSS code to style the form:
     ```css
     #add-student {
+        width: 50%; /* give the 50% width of the whole page to student-list div */
         margin: 2rem 0; /* Add space above and below the section */
         padding: 1rem; /* Add padding inside the section */
         background-color: #f9f9f9; /* Set a light gray background color */
@@ -251,7 +269,7 @@ Remember: Good design improves user experience. While functionality is crucial, 
     #add-student form {
         display: flex; /* Use flexbox for form layout */
         flex-direction: column; /* Stack form elements vertically */
-        gap: 1rem; /* Add space between form elements */
+        gap: 0.5rem; /* Add space between form elements */
     }
 
     #add-student label {
@@ -281,7 +299,29 @@ Remember: Good design improves user experience. While functionality is crucial, 
 2. Save the file and refresh your browser:
     - The form now looks clean and professional, with visually appealing input fields and buttons.
 
-### Step 5: Test Your Layout and Style
+### Step 5: Responsiveness styles for mobile screen
+1. Add the following CSS code to style entire design suitable for mobile:
+    ```css
+    /* Responsive styles for screens with a maximum width of 768px */
+    @media (max-width: 768px) {
+        .sections {
+            display: flex; /* Ensure flexbox layout is used */
+            flex-direction: column; /* Stack child elements vertically */
+            gap: 0 !important; /* Remove the gap between child elements */
+        }
+        #student-list {
+            width: 100% !important; /* Make the student-list section take up the full width */
+        }
+        #add-student {
+            width: 100% !important; /* Make the add-student section take up the full width */
+        }
+    }
+    ```
+
+    - The `@media` query is used to apply specific styles based on the screen's width or other characteristics, enabling responsive design. Here, it adjusts the layout for screens with a width of `768px` or less, ensuring a mobile-friendly layout.
+
+
+### Step 6: Test Your Layout and Style
 1. Open your app in the browser and verify:
     - The navigation bar is styled and functional.
     - The student list section is neatly organized.
