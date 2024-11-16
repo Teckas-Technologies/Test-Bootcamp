@@ -1,6 +1,10 @@
 # Day 3: CSS Basics + Styling the Interface
 Welcome to Day 3 of the **Job-Ready Devs 30-Day Challenge!** 🎨 Today, we’ll focus on improving the visual appeal of our **Student Management App**. With CSS, you’ll transform the basic structure from Day 2 into a sleek, user-friendly interface. By the end of this session, your app will look professional and modern, setting the stage for more advanced features in the coming days.
 
+## Expected Output
+At the end of **Day 3**, you will have knowledge of **CSS style attributes** and **types of selectors**, and you will get an expected output like the one shown below:
+![Expected Output](https://gfxvsstorage.blob.core.windows.net/gfxvscontainer/Day-3.png)
+
 ## Overview
 In this lesson, you’ll:
 
