@@ -16,6 +16,133 @@ Remember: Good design improves user experience. While functionality is crucial, 
 3. Design the student list and form sections with clean layouts and consistent themes.
 4. Practice linking CSS to HTML for seamless integration.
 
+## CSS Style Selectors
+1. **Element Selector**
+    - The element selector applies styles to all elements of a specific type.
+
+    **Example**:
+    ```css
+    nav {
+    background-color: #007BFF; /* Applies to all <nav> elements */
+    }
+    ```
+
+    - Targets all `<nav>` elements in the `html` document.
+    - Commonly used for global styles.
+
+2. **Class Selector**
+    - The class selector applies styles to elements with a specific class attribute.
+    **Syntax**:
+    ```css
+    .class-name {
+    property: value;
+    }
+    ```
+
+    **Example**:
+    ```css
+    .nav-item {
+    padding: 0.5rem; /* Adds padding to elements with the class 'nav-item' */
+    }
+    ```
+
+    - Use a period (`.`) followed by the class name.
+    - Multiple elements can share the same class.
+
+3. **ID Selector**
+    - The ID selector applies styles to a single element with a unique ID attribute.
+    **Syntax**:
+    ```css
+    #id-name {
+    property: value;
+    }
+    ```
+
+    **Example**:
+    ```css
+    #student-list {
+    margin: 2rem 0; /* Applies to the element with ID 'student-list' */
+    }
+    ```
+
+    - Use a hash (`#`) followed by the ID name.
+    - IDs must be unique on a webpage.
+
+
+## CSS basic attributes
+
+1. `background-color`
+    - Sets the background color of an element. 
+    **Example**:
+    ```css
+    background-color: #007BFF; // hexadecimal values define the different colors
+    ```
+
+2. `color`
+    - Defines the text color inside an element. 
+    **Example**:
+    ```css
+    color: white;
+    ```
+
+3. `padding`
+    - Adds space inside an element, between its content and its border. 
+    **Example**:
+    ```css
+    padding: 1rem;
+    ```
+
+4. `margin`
+    - Adds space outside an element, between it and adjacent elements. 
+    **Example**:
+    ```css
+    margin: 2rem 0;
+    ```
+
+5. `border`
+    - Specifies the border style, width, and color of an element. 
+    **Example**:
+    ```css
+    border: 1px solid #ddd;
+    ```
+
+6. `border-radius`
+    - Rounds the corners of an element. 
+    **Example**:
+    ```css
+    border-radius: 5px;
+    ```
+
+7. `display`
+    - Controls the layout behavior of an element (e.g., flex, block, inline). 
+    **Example**:
+    ```css
+    display: flex;
+    ```
+
+8. `gap`
+    - Adds space between child elements in a flex or grid container. 
+    **Example**:
+    ```css
+    gap: 1rem;
+    ```
+
+9. `text-decoration`
+    - Adds or removes text decoration (e.g., underline, none). 
+    **Example**:
+    ```css
+    text-decoration: none;
+    ```
+
+10. `cursor`
+    - Changes the mouse cursor style when hovering over an element. 
+    **Example**:
+    ```css
+    cursor: pointer;
+    ```
+
+---
+
 ## Steps
 ### Step 1: Create a CSS File
 1. Switch to the "Day-3" Branch
