@@ -7,7 +7,6 @@ At the end of Day 1, you will have a Git and VS Code set up environment, and you
 
 ![Expected Output](https://gfxvsstorage.blob.core.windows.net/gfxvscontainer/Day-1.png)
 
-
 ## Overview
 Today’s lesson will get you started with:
 
