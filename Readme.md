@@ -17,8 +17,83 @@ Remember: Learning JavaScript opens the door to building dynamic and interactive
 3. Dynamically update the "Student List" with user-provided data.
 4. Build error handling and validation for smoother user experience.
 
+## JavaScript basic properties  
+1. `value`
+    - The value property is used to get or set the value of an `input`, `textarea`, or `select` element.
+
+    **Syntax**:
+    ```javascript
+    element.value;
+    ```
+
+    **Use Cases**:
+    - Retrieve user input from a form.
+    - Set a default value for an input field.  
+
+    **Example**:
+    ```javascript
+    const name = nameInput.value; // Gets the current value of the input field
+    nameInput.value = ''; // Clears the input field
+    ```
+
+2. `textContent`
+    - The textContent property gets or sets the text content of an element, excluding any HTML tags.
+
+    **Syntax**:
+    ```javascript
+    element.textContent;
+    ```
+
+    **Use Cases**:
+    - Dynamically set or retrieve text for an element.
+    - Avoids interpreting or rendering HTML inside the element.
+
+    **Example**:
+    ```javascript
+    listItem.textContent = `${name} - ${email}`; // Sets the text for the list item
+    ```
+
 ## JavaScript Methods and Functions
-1. `addEventListener`
+1. `trim`
+    - The trim method removes whitespace from both ends of a string.
+
+    **Syntax**:
+    ```javascript
+    string.trim();
+    ```
+
+    **Use Case**:
+        - Ensures that inputs do not include accidental spaces at the beginning or end.  
+
+    **Example**:
+    ```javascript
+    const name = nameInput.value.trim(); // Removes leading/trailing spaces from the input value
+    ```
+
+2. `alert`
+    - The alert method displays a dialog box with a message and an `OK` button.
+
+    **Syntax**:
+    ```javascript
+    alert(message);
+    ```
+
+    **Use Cases**:
+    - Inform users about errors, warnings, or important information.  
+
+    **Example**:
+
+    ```javascript
+    if (!name || !email) {
+        alert('Both fields are required!'); // Displays a message if fields are empty
+    }
+    ```
+
+    **Note**:
+    - `alert` pauses the script until the user closes the dialog box.
+    - Use sparingly for better user experience.
+
+3. `addEventListener`
     - The addEventListener method allows you to attach an event handler to a specific event on an element.  
 
     **Syntax**:
@@ -38,7 +113,7 @@ Remember: Learning JavaScript opens the door to building dynamic and interactive
     ```
     - In the example, the submit event of the form is being listened to.
 
-2. `preventDefault`
+4. `preventDefault`
     - The preventDefault method stops the default action of an event from occurring. For instance, it prevents the form from reloading the page when submitted.  
 
     **Syntax**:  
@@ -56,7 +131,7 @@ Remember: Learning JavaScript opens the door to building dynamic and interactive
     });
     ```
 
-3. `createElement`
+5. `createElement`
     - The createElement method creates a new DOM element dynamically.  
 
     **Syntax**:
@@ -73,7 +148,7 @@ Remember: Learning JavaScript opens the door to building dynamic and interactive
     ```
     - Creates a new `<li>` element.
 
-4. `appendChild`
+6. `appendChild`
     - The `appendChild` method adds a node (element) as the last child of a specified parent element.
 
     **Syntax**:
