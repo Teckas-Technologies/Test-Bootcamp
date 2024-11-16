@@ -73,6 +73,25 @@ Remember: Learning JavaScript opens the door to building dynamic and interactive
     ```
     - Creates a new `<li>` element.
 
+4. `appendChild`
+    - The `appendChild` method adds a node (element) as the last child of a specified parent element.
+
+    **Syntax**:
+    ```javascript
+    parentElement.appendChild(newChild);
+    ```
+
+    **Parameters**:
+    - `parentElement`: The element to which the new child will be appended.
+    - `newChild`: The element to append.  
+
+    **Example**:
+    ```javascript
+    studentList.appendChild(listItem);
+    ```
+    
+    - Adds the newly created `listItem` as a child to the `studentList` element.
+
 
 ## Steps
 ### Step 1: Add a JavaScript File
