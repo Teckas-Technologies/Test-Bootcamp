@@ -2,6 +2,12 @@
 
 Welcome to Day 1 of the Job-Ready Devs 30-Day Challenge! Today, we’ll focus on setting up our development environment and creating a basic "Hello, World!" webpage. This setup is essential for building a strong foundation, and it will help you get comfortable with the tools and workflows we'll be using throughout the challenge.
 
+## Expected Output
+At the end of Day 1, you will have a Git and VS Code set up environment, and you will get an expected output like the one shown below:
+
+![Expected Output](https://gfxvsstorage.blob.core.windows.net/gfxvscontainer/Day-1.png)
+
+
 ## Overview
 Today’s lesson will get you started with:
 
