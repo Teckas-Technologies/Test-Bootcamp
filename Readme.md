@@ -7,21 +7,21 @@ Hey future developers! 👋 We’re thrilled to kick off this 30-Day Challenge w
 📌 Daily Lesson Materials & Assignments Link will be posted on the [**Job-Ready Devs**](https://t.me/jobreadydevs) Telegram Channel!
 
 ### Step 2: Open the Assignment
-1️⃣ Click the **assignment link** in Telegram to open classroom.github.com.
-2️⃣ Don’t have a GitHub account? [Create one](https://github.com/signup)!
-3️⃣ Sign in using your **GitHub** account.
-4️⃣ Click the "Accept Assignment" button.
+1️⃣ Click the **assignment link** in Telegram to open classroom.github.com.  
+2️⃣ Don’t have a GitHub account? [Create one](https://github.com/signup)!  
+3️⃣ Sign in using your **GitHub** account.  
+4️⃣ Click the "Accept Assignment" button.  
 
 ### Step 3: Access Forked Repository
-👉 The classroom generates a forked repository URL for you.
-👉 Click on the URL to visit your forked repository.
+👉 The classroom generates a forked repository URL for you.  
+👉 Click on the URL to visit your forked repository.  
 
 ### Step 4: Copy the Repository URL
-👉 On your forked repository page, click the "**Code**" button.
-👉 Copy the **HTTPS URL** shown for the repository.
+👉 On your forked repository page, click the "**Code**" button.  
+👉 Copy the **HTTPS URL** shown for the repository.  
 
 ### Step 5: Clone the Repository
-👉 Open your **terminal** and run the command:
+👉 Open your **terminal** and run the command:  
 ```bash
 git clone <copied_url_from_repository>
 ```
@@ -36,7 +36,7 @@ git checkout Day-1
 ```
 
 ### Step 8: Learn and Code
-📖 Learn the topics in the day’s branch `README.md`.
+📖 Learn the topics in the day’s branch `README.md`.  
 💻 Complete the assignment using the `starter code` provided.
 
 ### Step 9: Verify Output
