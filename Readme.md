@@ -380,18 +380,23 @@ Remember: Good design improves user experience. While functionality is crucial, 
 ### Step 6: Responsiveness styles for mobile screen
 1. Add the following CSS code to style entire design suitable for mobile:
     ```css
-    /* Responsive styles for screens with a maximum width of 768px */
+    /* Responsive styles for smaller screens */
     @media (max-width: 768px) {
+        nav h1 {
+            font-size: 14px; /* Reduce font size for smaller screens */
+        }
         .sections {
             display: flex; /* Ensure flexbox layout is used */
-            flex-direction: column; /* Stack child elements vertically */
-            gap: 0 !important; /* Remove the gap between child elements */
+            flex-direction: column; /* Stack sections vertically */
+            gap: 0 !important; /* Remove gap between sections */
         }
+
         #student-list {
-            width: 100% !important; /* Make the student-list section take up the full width */
+            width: 100% !important; /* Make the Student List section take full width */
         }
+
         #add-student {
-            width: 100% !important; /* Make the add-student section take up the full width */
+            width: 100% !important; /* Make the Add Student section take full width */
         }
     }
     ```
