@@ -72,70 +72,70 @@ Remember: Good design improves user experience. While functionality is crucial, 
 ## CSS basic attributes
 
 1. `background-color`
-    - Sets the background color of an element. 
+    - Sets the background color of an element.  
     **Example**:
     ```css
     background-color: #007BFF; // hexadecimal values define the different colors
     ```
 
 2. `color`
-    - Defines the text color inside an element. 
+    - Defines the text color inside an element.  
     **Example**:
     ```css
     color: white;
     ```
 
 3. `padding`
-    - Adds space inside an element, between its content and its border. 
+    - Adds space inside an element, between its content and its border.  
     **Example**:
     ```css
     padding: 1rem;
     ```
 
 4. `margin`
-    - Adds space outside an element, between it and adjacent elements. 
+    - Adds space outside an element, between it and adjacent elements.  
     **Example**:
     ```css
     margin: 2rem 0;
     ```
 
 5. `border`
-    - Specifies the border style, width, and color of an element. 
+    - Specifies the border style, width, and color of an element.  
     **Example**:
     ```css
     border: 1px solid #ddd;
     ```
 
 6. `border-radius`
-    - Rounds the corners of an element. 
+    - Rounds the corners of an element.  
     **Example**:
     ```css
     border-radius: 5px;
     ```
 
 7. `display`
-    - Controls the layout behavior of an element (e.g., flex, block, inline). 
+    - Controls the layout behavior of an element (e.g., flex, block, inline).  
     **Example**:
     ```css
     display: flex;
     ```
 
 8. `gap`
-    - Adds space between child elements in a flex or grid container. 
+    - Adds space between child elements in a flex or grid container.  
     **Example**:
     ```css
     gap: 1rem;
     ```
 
 9. `text-decoration`
-    - Adds or removes text decoration (e.g., underline, none). 
+    - Adds or removes text decoration (e.g., underline, none).  
     **Example**:
     ```css
     text-decoration: none;
     ```
 
 10. `cursor`
-    - Changes the mouse cursor style when hovering over an element. 
+    - Changes the mouse cursor style when hovering over an element.  
     **Example**:
     ```css
     cursor: pointer;
